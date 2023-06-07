@@ -7,7 +7,7 @@ import axios from "axios";
 import { useRouter } from "next/navigation";
 
 const LoginPage = () => {
-  const baseUrl = "http://localhost:3000";
+  const baseUrl = "https://flance-app-api.tianweb.dev";
   const router = useRouter();
   const input = {
     email: useRef(),

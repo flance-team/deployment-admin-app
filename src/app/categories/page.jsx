@@ -7,7 +7,7 @@ import "../../styles/global.css";
 import BadgeInput from "../../components/BadgeInput";
 import authMiddleware from "@app/middleware";
 
-const baseUrl = "http://localhost:3000";
+const baseUrl = "https://flance-app-api.tianweb.dev";
 
 const CategoryPage = () => {
   const [categories, setCategories] = useState([]);

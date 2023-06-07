@@ -6,7 +6,7 @@ import Loading from "../../components/Loading";
 import "../../styles/global.css";
 import authMiddleware from "@app/middleware";
 
-const baseUrl = "http://localhost:3000";
+const baseUrl = "https://flance-app-api.tianweb.dev";
 
 const TypePage = () => {
   const [types, setTypes] = useState([]);
